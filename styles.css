@@ -1,0 +1,16 @@
+body{
+    background-image: url('82718617-happy-school-children-in-front-of-school-building.webp');
+
+}
+h1{
+    text-align: center;
+    color: #5506e7;
+}
+button{
+    width: 20%;
+    height: 100%;
+    /* margin-bottom: 80%; */
+}
+/* .text-white{
+    padding-bottom: 50%;
+} */
