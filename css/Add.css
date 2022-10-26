@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 35px;
+    font-size: 15px;
+    padding: 50px;
+    border: 5px solid rgb(85, 240, 14);
+    border-radius: 10px;
+}
+
+.container {
+    background-color: lightgrey;
+    padding: 5px 20px 20px 20px;
+    border: 7px solid lightgreen;
+    border-radius: 4px;
+}
+
+fieldset
+{
+    width: 15%;
+    background-color: rgb(55, 211, 216);
+}
+.main_heading {
+    text-align: center;
+    -moz-text-blink: inherit;
+    
+}
+
+input[type="submit"] {
+    background-color: chartreuse;
+    color: darkred;
+    padding: 20px 25px;
+    border: 10px solid deepskyblue;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 15%;
+    text-align: center;
+    height: 2%;
+}

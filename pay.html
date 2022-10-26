@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Add.css">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <h2>APPLICATION FORM FEE PAYMENT</h2>
+    
+    <p> <h3> Card Type: 
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select a Card Type--</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Mastercard</option>
+        </select></h3>
+    </p>
+    <p>
+        <h3> Card Number: * <input type="number" name="card number" id="card number" required placeholder="************"></h3>
+    </p>
+    <p>
+       <h3>Expiration Date: <input type="date" name="exp_date" id="exp_date"></h3> 
+    </p>
+    <p>
+       <h3> CVV: * <input type="password" name="cvv" id="cvv" required placeholder="***"></h3> 
+    </p>
+    <input type="submit" value="Pay Now">
+</body>
+</html>
